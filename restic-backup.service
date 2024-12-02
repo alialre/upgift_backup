@@ -1,0 +1,6 @@
+[Unit]
+Description=Restic Backup Service
+
+[Service]
+Type=oneshot
+ExecStart=/home/alialre/scripts/restic-backup.sh
